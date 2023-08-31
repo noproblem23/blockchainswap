@@ -1,0 +1,28 @@
+[
+  {
+    "pid": 1,
+    "lpSymbol": "SUGAR-CORE LP",
+    "lpAddresses": {
+      "280": "",
+      "324": "0xcd5645bcacc0f47cbf6e5a45d97aab709e90ec00"
+    },
+    "token": {
+      "symbol": "SUGAR",
+      "address": {
+        "324": "0x665F8B21878bDECa8bD94507120730a40dCd4F61",
+        "280": ""
+      },
+      "decimals": 18,
+      "projectLink": "https://sugarswap.exchange/"
+    },
+    "quoteToken": {
+      "symbol": "WCORE",
+      "address": {
+        "324": "0xAeaaf0e2c81Af264101B9129C00F4440cCF0F720",
+        "280": ""
+      },
+      "decimals": 18,
+      "projectLink": "https://coredao.org/"
+    }
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "rewrites": [
+    {
+      "source": "/swap",
+      "destination": "https://exchange.sugarswap.exchange/swap"
+    },
+
+    {
+      "source": "/find",
+      "destination": "https://exchange.sugarswap.exchange/find"
+    },
+    {
+      "source": "/pool",
+      "destination": "https://exchange.sugarswap.exchange/pool"
+    },
+    {
+      "source": "/zap",
+      "destination": "https://exchange.sugarswap.exchange/zap"
+    },
+    {
+      "source": "/add",
+      "destination": "https://exchange.sugarswap.exchange/add"
+    },
+    {
+      "source": "/remove/:currencyIdA/:currencyIdB",
+      "destination": "https://exchange.sugarswap.exchange/remove/:currencyIdA/:currencyIdB"
+    },
+    {
+      "source": "/add/:currencyIdA",
+      "destination": "https://exchange.sugarswap.exchange/add/:currencyIdA"
+    },
+    {
+      "source": "/add/:currencyIdA/:currencyIdB",
+      "destination": "https://exchange.sugarswap.exchange/add/:currencyIdA/:currencyIdB"
+    },
+    {
+      "source": "/remove/:tokens",
+      "destination": "https://exchange.sugarswap.exchange/remove/:tokens"
+    },
+    {
+      "source": "/exchange/:static*",
+      "destination": "https://exchange.sugarswap.exchange/exchange/:static*"
+    }
+  ]
+}
